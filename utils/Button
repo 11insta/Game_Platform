@@ -1,0 +1,10 @@
+import ExportTransactionsButton from "../components/ExportTransactionsButton";
+
+export default function TransactionsPage() {
+  return (
+    <div>
+      <h1>User Transactions</h1>
+      <ExportTransactionsButton />
+    </div>
+  );
+}
